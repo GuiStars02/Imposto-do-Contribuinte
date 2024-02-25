@@ -11,8 +11,8 @@ public class Company extends Payer{
 	}
 
 	public Company(String name, Double anualIncome, Integer numberEmps) {
-		super(name, anualIncome);
-		this.numberEmps = numberEmps;
+			super(name, anualIncome);
+			this.numberEmps = numberEmps;
 	}
 
 	public Integer getNumberEmps() {
